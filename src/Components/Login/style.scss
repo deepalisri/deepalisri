@@ -1,0 +1,41 @@
+@import "../../variable.scss";
+.login-container {
+    max-width: 500px;
+    margin: 30px auto 0 auto;
+    background: $white-color 0% 0% no-repeat padding-box;
+    box-shadow: 0px 30px 36px $card-border;
+    border-radius: 20px;
+    color: $top-background;
+    padding: 30px;
+    input {
+        width: 95%;
+        border: solid 2px $card-border;
+        padding: 10px;
+        border-radius: 5px;
+        background: $input-background;
+        &::placeholder {
+            color: $placeholder-text;
+        }
+        &.error {
+            border: solid 1px $error-border;
+        }
+    }
+    .error-text {
+        color: $error-text ;
+        text-align: end;
+        margin: 0;
+    }
+    .login-btn {
+        margin: 3em;
+    }
+    .light-blue-text {
+        color: $light-blue;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    h4 {
+        margin-bottom: 3px;
+    }
+}

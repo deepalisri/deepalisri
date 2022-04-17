@@ -1,0 +1,63 @@
+$top-background: #303F60;
+$bottom-background: #EDF6FF;
+$light-blue: #43AFFF;
+$white-color: #FFFFFF;
+$button-background: #43AFFF33;
+$divider: #4D618E;
+$card-border: #557DA526;
+$input-background: #fafafa;
+$placeholder-text: #b0b6c2;
+$error-border: #FF333380;
+$input-background: #E8E8E833;
+$empty-card-background: #A9AFBC;
+$user-icon-border: #D9EFFF;
+$modal-card-border: #303F6080;
+$paginate-item-border: #acb8c8;
+$paginate-item-color: #7a839a;
+$modal-content-bg: #eeeff2;
+$error-text: #ff4444;
+
+.flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+.btn {
+    width: 148px;
+    height: 46px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bg-light-blue {
+    background: $light-blue;
+    border: 1px solid $light-blue;
+    border-radius: 5px;
+}
+.my-20 {
+    margin: 20px 0;
+}
+.text-center {
+    text-align: center;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px $user-icon-border;
+    background: $user-icon-border;
+    color: $top-background;
+    text-align: center;
+    font-size: 24px;
+    line-height: 0;
+}

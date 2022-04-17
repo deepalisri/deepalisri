@@ -1,0 +1,32 @@
+@import "../../variable.scss";
+.bottom-container {
+    h2 {
+        color: $top-background;
+    }
+    .card {
+        background-color: $white-color;
+        box-shadow: 0px 3px 6px $card-border;
+        border-radius: 5px;
+        padding: 24px 0 24px 20px;
+        & h2 {
+            color: $light-blue;
+            width: 60%;
+        }
+        & p {
+            color: $top-background;
+        }
+        &:nth-of-type(2) {
+            margin: 0 25px;
+        }
+    }
+    .company-container-wrapper {
+        margin-top: 4em;
+        .company-container {
+            flex-wrap: wrap;
+            & div {
+                flex: 1 0 18%;
+                text-align: center;
+            }
+        }
+    }
+}

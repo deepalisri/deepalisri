@@ -1,0 +1,13 @@
+@import '../../variable.scss';
+.banner-container {
+    .title-container {
+        margin-top: 50px;
+        .title {
+            font-size: 3em;
+            margin: 0;
+        }
+        .banner-logo img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+@import "../../variable.scss";
+.jobs-container {
+    .cards {
+        flex-wrap: wrap;
+        .empty-container {
+            margin: 15% auto;
+            color: $top-background;
+        }
+    }
+    .home {
+        span {
+            margin: 0 10px;
+            color: $white-color;
+        }
+    }
+    .card {
+        flex: 1 0 18%;
+        color: $top-background;
+        background: $white-color;
+        box-shadow: 0px 3px 6px $card-border;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px 0;
+        &:nth-of-type(even) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .apply-button {
+            width: 60px;
+            height: 32px;
+            background: $button-background;
+            border-radius: 5px;
+            border: none;
+        }
+        .card-items {
+            & img {
+                margin-right: 5px;
+            }
+            p {
+                word-break: break-all;
+            }
+        }
+    }
+    .pagination {
+        justify-content: center;
+        margin: 20px 0 0;
+        .page-item {
+            border: solid 2px $paginate-item-border;
+            border-radius: 5px;
+            padding: 3px 8px;
+            margin: 7px;
+            list-style-type: none;
+            &.active {
+                background: $button-background;
+                border: solid 2px $button-background;
+            }
+            &.disabled {
+                opacity: 0.5;
+            }
+            & a {
+                color: $paginate-item-color;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .modal-window {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.25);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        transition: all 0.3s;
+        & > div {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 2em;
+            background: white;
+            border-radius: 1rem;
+            overflow-y: scroll;
+        }
+        header {
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 150%;
+            margin: 0 0 15px;
+        }
+        .modal-close {
+            cursor: pointer;
+        }
+        .modal-content {
+            color: $top-background;
+            h3 {
+                margin: 0;
+            }
+            .empty-container {
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 43%;
+                }
+                p {
+                    position: absolute;
+                    top: 67%;
+                    left: 34%;
+                }
+            }
+            .modal-inner-content {
+                background-color: $modal-content-bg;
+                border-radius: 10px;
+                flex-wrap: wrap;
+                min-height: 80%;
+                .cards {
+                    flex: 1 0 26%;
+                    color: $top-background;
+                    background: $white-color;
+                    border-radius: 5px;
+                    border: 1px solid $modal-card-border;
+                    margin: 20px 10px;
+                    padding: 10px;
+                    .personal-info {
+                        margin-left: 15px;
+                        word-break: break-all;
+                    }
+                }
+            }
+        }
+    }
+}
