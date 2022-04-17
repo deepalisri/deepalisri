@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/deepalisri/static/css/main.1eddc8d0.css",
-    "main.js": "/deepalisri/static/js/main.83c295ca.js",
-    "static/js/787.32487516.chunk.js": "/deepalisri/static/js/787.32487516.chunk.js",
-    "index.html": "/deepalisri/index.html",
-    "main.1eddc8d0.css.map": "/deepalisri/static/css/main.1eddc8d0.css.map",
-    "main.83c295ca.js.map": "/deepalisri/static/js/main.83c295ca.js.map",
-    "787.32487516.chunk.js.map": "/deepalisri/static/js/787.32487516.chunk.js.map"
+    "main.css": "/static/css/main.cd45262a.css",
+    "main.js": "/static/js/main.bf3938d0.js",
+    "static/js/787.3ceb42f0.chunk.js": "/static/js/787.3ceb42f0.chunk.js",
+    "static/media/banner.png": "/static/media/banner.6a65a7ae9028535d5085.png",
+    "static/media/goldline.png": "/static/media/goldline.e232da60e8d35e8910fd.png",
+    "static/media/kanba.png": "/static/media/kanba.e5efddc466fa970c5e2f.png",
+    "static/media/velocity-9.png": "/static/media/velocity-9.fdf32c8fc9beaef8a457.png",
+    "static/media/writing.svg": "/static/media/writing.a97e2fc5d022f94415a01f7dbbab5c82.svg",
+    "index.html": "/index.html",
+    "static/media/location.svg": "/static/media/location.ca31481a4af9374a59d346dd4cda462e.svg",
+    "static/media/down.svg": "/static/media/down.7e1d16da720fd631e3b1c3aa2954f1c7.svg",
+    "static/media/MyJobs.svg": "/static/media/MyJobs.48e7d357cc6929693744290f3eae3a96.svg",
+    "static/media/home.svg": "/static/media/home.1668246a209c03e40c04cad2659ec133.svg",
+    "main.cd45262a.css.map": "/static/css/main.cd45262a.css.map",
+    "main.bf3938d0.js.map": "/static/js/main.bf3938d0.js.map",
+    "787.3ceb42f0.chunk.js.map": "/static/js/787.3ceb42f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eddc8d0.css",
-    "static/js/main.83c295ca.js"
+    "static/css/main.cd45262a.css",
+    "static/js/main.bf3938d0.js"
   ]
 }
